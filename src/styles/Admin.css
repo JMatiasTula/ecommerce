@@ -1,0 +1,8 @@
+.inicio-form {
+  background: black;
+
+}
+
+.inicio-form button:hover {
+  background-color: rgb(97, 97, 106);
+}

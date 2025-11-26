@@ -1,0 +1,70 @@
+/* Contenedor general del header+nav */
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+     background-color: rgb(34, 33, 33);
+    padding: 10px 20px;
+    color: white;
+    
+    
+}
+
+/* Logo + título */
+.navbar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.header-logo {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+    
+}
+
+.header-title {
+    font-size: 24px;
+    text-decoration: none; /* ← Esto elimina el subrayado */
+    color: white;
+    font-weight: bold;
+}
+
+/* Contenedor de enlaces */
+.navbar-links {
+    display: flex;
+    flex-wrap: wrap; /* Permite que se reordenen */
+    gap: 10px;
+}
+
+/* Enlaces */
+.nav-link {
+    background-color: #11365f;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    background-color: #11365f;
+}
+
+/* Responsive: en pantallas pequeñas, columna */
+@media (max-width: 768px) {
+    .navbar-container {
+        align-items: center;
+    }
+
+    .navbar-header {
+        justify-content: center;
+    }
+
+    .navbar-links {
+        justify-content: center;
+    }
+}
+

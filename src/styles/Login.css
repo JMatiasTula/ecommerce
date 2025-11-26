@@ -1,0 +1,30 @@
+.login-form {
+    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  
+}
+
+.login-form input,
+.login-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  
+}
+
+.login-form button {
+  padding: 30px;
+  background-color: rgb(97, 97, 106);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid black 1px;
+}
+
+.login-form button:hover {
+  background-color: black;
+}

@@ -1,0 +1,11 @@
+.carrusel-img {
+  width: 100%;
+  height: 320px;
+
+  background-repeat: repeat-x;   /* 🔥 Repetir horizontalmente */
+  background-size: auto 100%;    /* La imagen mantiene la altura, no se deforma */
+  background-position: center;   /* Centrar verticalmente */
+  background-color: #615c5c;     /* Fondo detrás, por si la imagen tiene bordes transparentes */
+
+  border-radius: 0.75rem;
+}

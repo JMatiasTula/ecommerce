@@ -1,0 +1,66 @@
+.productos-conteiner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3px;
+  padding: 20px;
+  background-color: #11365f;
+}
+
+.producto-card {
+  background-color: rgb(34, 33, 33);
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 1px;
+  text-align: center;
+}
+
+.producto-image{
+    width: 140px;
+    height: 140px;
+    border-radius: 3px;
+}
+
+/* Teléfonos grandes y tablets verticales */
+@media (max-width: 768px) {
+  .producto-card {
+    padding: 10px;
+  }
+
+  .producto-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .producto-card h2 {
+    font-size: 1rem;
+  }
+
+  .producto-card p {
+    font-size: 0.9rem;
+  }
+
+  .producto-card button {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 480px) {
+  .producto-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .producto-card h2 {
+    font-size: 0.95rem;
+  }
+
+  .producto-card p {
+    font-size: 0.85rem;
+  }
+
+  .producto-card button {
+    width: 100%;
+  }
+}

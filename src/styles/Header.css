@@ -1,0 +1,27 @@
+.header {
+    background-color: #11365f;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.header-title {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-title:hover {
+    text-decoration: underline;
+}
