@@ -1,7 +1,8 @@
 import React, { createContext, useState, useContext } from 'react';
 
 const ProductosContext = createContext();
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://techlab-backend-9ym8.onrender.com';
+
 
 export function ProductosProvider({ children }) {
   const [productos, setProductos] = useState([]);

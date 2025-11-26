@@ -2,7 +2,8 @@ import React, { createContext, useState, useContext } from 'react';
 
 export const AuthContext = createContext();
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://techlab-backend-9ym8.onrender.com';
+
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);      // email del usuario logueado

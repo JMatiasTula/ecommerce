@@ -4,7 +4,8 @@ import { useAuthContext } from '../contexts/AuthContext';
 // Ya no usamos Firebase Auth para este proyecto final
 import { dispararSweetBasico } from '../assets/SweetAlert';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://techlab-backend-9ym8.onrender.com';
+
 
 function LoginBoost() {
   const [usuario, setUsuario] = useState('');
