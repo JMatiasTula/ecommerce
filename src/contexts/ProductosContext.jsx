@@ -1,7 +1,8 @@
 import React, { createContext, useState, useContext } from 'react';
 
 const ProductosContext = createContext();
-const API_URL = 'https://techlab-backend-9ym8.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL;
+
 
 
 export function ProductosProvider({ children }) {
