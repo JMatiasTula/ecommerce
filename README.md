@@ -30,7 +30,7 @@ Tecnologías utilizadas:
 - Fetch API
 
 
-AUTH_EMAIL=admin@techlab.com
+AUTH_EMAIL=test@gmail.com
 
 AUTH_PASSWORD=123456
 
